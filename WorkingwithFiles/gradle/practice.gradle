@@ -1,0 +1,115 @@
+tasks.register('eat') {
+    group 'custom'
+    description 'eat task'
+    doLast{
+        println 'yummy!'
+    }
+}
+
+tasks.register('upper') {
+    group 'custom'
+    description 'upper task'
+
+    doLast {
+        String someThing = 'mY_nAmE'
+        println "Original: $someThing"
+        println "UpperCase: ${someThing.toUpperCase()}"
+    }
+}
+
+tasks.register('count') {
+    group 'custom'
+    description 'count task'
+
+    doLast {
+        4.times {
+            println "$it"
+        }
+    }
+}
+
+// tasks dependencies
+tasks.register('hello') {
+    group 'custom'
+    description 'hello task'
+
+    doLast {
+        println 'Hello World!'
+    }
+}
+
+tasks.register('intro') {
+    group 'custom'
+    description 'intro task'
+
+    dependsOn tasks.hello
+    doLast {
+        println 'I am Gradle!'
+    }
+}
+
+//lazy dependsOn
+tasks.register('taskX') {
+    group 'custom'
+    description 'taskX task'
+
+    dependsOn 'taskY'
+    doLast {
+        println 'this is taskX'
+    }
+}
+
+tasks.register('taskY') {
+    group 'custom'
+    description 'taskY task'
+
+    doLast {
+        println 'this is taskY'
+    }
+}
+
+//flexible task registration
+4.times {counter ->
+    tasks.register("task$counter") {
+        group 'custom'
+        description "task$counter task"
+
+        doLast {
+            println "Hi, I am task number: $counter"
+        }
+    }
+
+}
+
+//manipulate existing tasks
+tasks.named('task0') {
+    dependsOn('task2', 'task3')
+}
+
+//Or you can add behavior to an existing task.
+tasks.register('planet') {
+    group 'custom'
+    description 'planet task'
+
+    doLast {
+        println 'hello earth!'
+    }
+}
+
+tasks.named('planet') {
+    doFirst {
+        println 'hello venus'
+    }
+}
+
+tasks.named('planet') {
+    doLast {
+        println 'hello mars'
+    }
+}
+
+tasks.named('planet') {
+    doLast {
+        println 'hello jupiter'
+    }
+}

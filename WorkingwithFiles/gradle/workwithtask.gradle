@@ -1,0 +1,121 @@
+//copy single file
+tasks.register('copySingle', Copy) {
+    dependsOn 'sayGreeting'
+    from "$buildDir/hello.txt"
+    into "$buildDir/archive"
+
+    //or you can use like below
+    //into layout.buildDirectory.dir("archive")
+
+    doLast {
+        println 'done!'
+    }
+}
+
+//copy multiple file
+
+//generate dumy file first
+tasks.register('generateDummyFiles') {
+    def planets = [
+            'mercury',
+            'venus',
+            'earth',
+            'mars',
+            'jupiter',
+            'saturn',
+            'uranus',
+            'neptune'
+    ]
+    def outputPath = "$buildDir/planets"
+    def dir = new File(outputPath)
+    doLast {
+
+        if (dir.exists()) {
+            delete dir
+        }
+
+        mkdir outputPath
+        planets.forEach {planet ->
+            file("${outputPath}/${planet}.txt") << "this is planet: ${planet}"
+            logger.info("file: ${planet}.txt created")
+        }
+
+//        simulate subdir
+        mkdir "${outputPath}/subdir"
+        5.times {count ->
+
+            def content = "{\"message\": \"Hello From ${count}\"}"
+            file("${outputPath}/subdir/${count}.json") << content
+        }
+    }
+}
+
+tasks.register('copyPlanets', Copy) {
+    dependsOn 'generateDummyFiles'
+    from layout.buildDirectory.dir('planets')
+    include '*.txt', '**/*.json'
+    into layout.buildDirectory.dir('planetsArchive')
+    doLast {
+        println 'done!'
+    }
+}
+
+//create zip
+tasks.register('packagePlanets', Zip) {
+    dependsOn 'copyPlanets'
+
+    archiveName = 'planets-archive.zip'
+    destinationDirectory = layout.buildDirectory.dir('dist')
+    from layout.buildDirectory.dir('planetsArchive')
+}
+
+//unpacking zip
+tasks.register('unpackPlanets', Copy) {
+    dependsOn 'packagePlanets'
+
+    def inputPath = "$buildDir/dist/planets-archive.zip"
+    from zipTree(inputPath)
+    into layout.buildDirectory.dir('unpackPlanets')
+}
+
+//unpack zip only subdir
+tasks.register('unpackSubdir', Copy) {
+    dependsOn 'packagePlanets'
+
+    from(zipTree("$buildDir/dist/planets-archive.zip")) {
+        include 'subdir/1.json', 'subdir/3.json'
+        eachFile { fcd ->
+            fcd.relativePath = new RelativePath(true, fcd.relativePath.segments.drop(1))
+        }
+        includeEmptyDirs = false
+    }
+    into layout.buildDirectory.dir('unpackSubdir')
+}
+
+//moving dir
+tasks.register('movePlanets') {
+    dependsOn 'generateDummyFiles'
+    doLast {
+        ant.move file: "${buildDir}/planets", todir: "${buildDir}/deleted-planets"
+    }
+}
+
+//renaming on copy
+tasks.register('copyToStaging', Copy) {
+    dependsOn 'generateDummyFiles'
+
+    def outputPath = layout.buildDirectory.dir('staging')
+
+    from "${buildDir}/planets"
+    into outputPath
+    rename '(.*).txt', '$1-staging.txt'
+}
+
+//delete with pattern
+tasks.register('deleteStaging', Delete) {
+    dependsOn 'copyToStaging'
+
+    delete fileTree(layout.buildDirectory.dir('staging')).matching {
+        include '**/*.json'
+    }
+}

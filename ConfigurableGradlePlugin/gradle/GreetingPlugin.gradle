@@ -1,0 +1,31 @@
+abstract class GreetingPluginExtension {
+    abstract Property<String> getMessage()
+    abstract Property<String> getName()
+
+    GreetingPluginExtension() {
+//        default value
+        message.convention('Hello from GreetingPlugin')
+        name.convention('Yuana')
+    }
+
+}
+
+class GreetingPlugin implements Plugin<Project> {
+    void apply(Project project) {
+        // Add the 'greeting' extension object
+        def extension = project.extensions.create('greeting', GreetingPluginExtension)
+        // Add a task that uses configuration from the extension object
+        project.task('hello') {
+            doLast {
+                println extension.message.get()
+                println "this is ${extension.name.get()}"
+            }
+        }
+    }
+}
+
+apply plugin: GreetingPlugin
+
+// Configure the extension
+greeting.message = 'Hi from Gradle'
+greeting.name = 'Andhika'

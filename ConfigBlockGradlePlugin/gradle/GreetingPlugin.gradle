@@ -1,0 +1,32 @@
+
+interface GreetingPluginExtension {
+    Property<String> getMessage()
+    Property<String> getGreeter()
+}
+
+class GreetingPlugin implements Plugin<Project> {
+    void apply(Project project) {
+        def extension = project.extensions.create('greeting', GreetingPluginExtension)
+        project.task('hello') {
+            doLast {
+                println "${extension.message.get()} from ${extension.greeter.get()}"
+            }
+        }
+
+        project.task('generateMessage') {
+            doLast {
+                println "whatsup!"
+                println "this is me ${extension.greeter.get()}"
+                println "${extension.message.get()}"
+            }
+        }
+    }
+}
+
+apply plugin: GreetingPlugin
+
+// Configure the extension using a DSL block
+greeting {
+    message = 'Hi'
+    greeter = 'Andhika'
+}
