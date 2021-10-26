@@ -1,0 +1,1047 @@
+
+> Configure project :
+just evaluated: root project 'Gradle Notification'
+
+> Configure project :app
+added task: help
+added task: projects
+added task: tasks
+added task: properties
+added task: dependencyInsight
+added task: dependencies
+added task: buildEnvironment
+added task: components
+added task: model
+added task: dependentComponents
+added task: outgoingVariants
+added task: javaToolchains
+added task: clean
+added task: assemble
+added task: check
+added task: build
+added task: buildNeeded
+added task: buildDependents
+added task: uninstallAll
+added task: deviceCheck
+added task: connectedCheck
+added task: preBuild
+added task: extractProguardFiles
+added task: sourceSets
+added task: assembleAndroidTest
+added task: compileLint
+added task: lintFix
+added task: lint
+added task: resolveConfigAttr
+added task: consumeConfigAttr
+just evaluated: project ':app'
+added task: prepareLintJarForPublish
+added task: compileLintChecks
+added task: createMockableJar
+added task: connectedAndroidTest
+added task: deviceAndroidTest
+added task: test
+added task: assembleDebug
+added task: bundleDebug
+added task: preDebugBuild
+added task: generateDebugSources
+added task: generateDebugResources
+added task: generateDebugAssets
+added task: compileDebugSources
+added task: extractDeepLinksDebug
+added task: writeDebugModuleMetadata
+added task: writeDebugApplicationId
+added task: checkDebugManifest
+added task: createDebugCompatibleScreenManifests
+added task: processApplicationManifestDebugForBundle
+added task: processManifestDebugForFeature
+added task: processDebugManifestForInstantApp
+added task: processDebugManifestForPackage
+added task: generateDebugManifestClass
+added task: processDebugMainManifest
+added task: processDebugManifest
+added task: generateDebugResValues
+added task: compileDebugRenderscript
+added task: mergeDebugResources
+added task: mergeDebugShaders
+added task: compileDebugShaders
+added task: mergeDebugAssets
+added task: compressDebugAssets
+added task: generateDebugBuildConfig
+added task: checkDebugAarMetadata
+added task: processDebugResources
+added task: bundleDebugResources
+added task: processDebugJavaRes
+added task: compileDebugAidl
+added task: mergeDebugJniLibFolders
+added task: mergeDebugNativeLibs
+added task: javaPreCompileDebug
+added task: compileDebugJavaWithJavac
+added task: bundleDebugClasses
+added task: mergeDebugGeneratedProguardFiles
+added task: mergeDebugJavaResource
+added task: checkDebugDuplicateClasses
+added task: dexBuilderDebug
+added task: desugarDebugFileDependencies
+added task: mergeExtDexDebug
+added task: mergeProjectDexDebug
+added task: mergeLibDexDebug
+added task: stripDebugDebugSymbols
+added task: extractDebugNativeDebugMetadata
+added task: extractDebugNativeSymbolTables
+added task: packageDebug
+added task: installDebug
+added task: uninstallDebug
+added task: generateDebugFeatureTransitiveDeps
+added task: zipApksForDebug
+added task: generateDebugFeatureMetadata
+added task: validateSigningDebug
+added task: signingConfigWriterDebug
+added task: writeDebugSigningConfigVersions
+added task: writeDebugAppMetadata
+added task: buildDebugPreBundle
+added task: parseDebugIntegrityConfig
+added task: packageDebugBundle
+added task: signDebugBundle
+added task: produceDebugBundleIdeListingFile
+added task: makeApkFromBundleForDebug
+added task: packageDebugUniversalApk
+added task: extractApksForDebug
+added task: mergeDebugNativeDebugMetadata
+added task: assembleRelease
+added task: bundleRelease
+added task: preReleaseBuild
+added task: generateReleaseSources
+added task: generateReleaseResources
+added task: generateReleaseAssets
+added task: compileReleaseSources
+added task: extractDeepLinksRelease
+added task: writeReleaseModuleMetadata
+added task: writeReleaseApplicationId
+added task: checkReleaseManifest
+added task: createReleaseCompatibleScreenManifests
+added task: processApplicationManifestReleaseForBundle
+added task: processManifestReleaseForFeature
+added task: processReleaseManifestForInstantApp
+added task: processReleaseManifestForPackage
+added task: generateReleaseManifestClass
+added task: processReleaseMainManifest
+added task: processReleaseManifest
+added task: generateReleaseResValues
+added task: compileReleaseRenderscript
+added task: mergeReleaseResources
+added task: mergeReleaseShaders
+added task: compileReleaseShaders
+added task: mergeReleaseAssets
+added task: compressReleaseAssets
+added task: generateReleaseBuildConfig
+added task: checkReleaseAarMetadata
+added task: processReleaseResources
+added task: bundleReleaseResources
+added task: optimizeReleaseResources
+added task: processReleaseJavaRes
+added task: compileReleaseAidl
+added task: mergeReleaseJniLibFolders
+added task: mergeReleaseNativeLibs
+added task: javaPreCompileRelease
+added task: compileReleaseJavaWithJavac
+added task: bundleReleaseClasses
+added task: mergeReleaseGeneratedProguardFiles
+added task: mergeReleaseJavaResource
+added task: checkReleaseDuplicateClasses
+added task: dexBuilderRelease
+added task: desugarReleaseFileDependencies
+added task: mergeExtDexRelease
+added task: mergeDexRelease
+added task: stripReleaseDebugSymbols
+added task: extractReleaseNativeDebugMetadata
+added task: extractReleaseNativeSymbolTables
+added task: packageRelease
+added task: uninstallRelease
+added task: generateReleaseFeatureTransitiveDeps
+added task: zipApksForRelease
+added task: generateReleaseFeatureMetadata
+added task: signingConfigWriterRelease
+added task: writeReleaseSigningConfigVersions
+added task: writeReleaseAppMetadata
+added task: mergeReleaseArtProfile
+added task: compileReleaseArtProfile
+added task: buildReleasePreBundle
+added task: collectReleaseDependencies
+added task: parseReleaseIntegrityConfig
+added task: packageReleaseBundle
+added task: configureReleaseDependencies
+added task: sdkReleaseDependencyData
+added task: signReleaseBundle
+added task: produceReleaseBundleIdeListingFile
+added task: makeApkFromBundleForRelease
+added task: packageReleaseUniversalApk
+added task: extractApksForRelease
+added task: mergeReleaseNativeDebugMetadata
+added task: assembleDebugAndroidTest
+added task: preDebugAndroidTestBuild
+added task: generateDebugAndroidTestSources
+added task: generateDebugAndroidTestResources
+added task: generateDebugAndroidTestAssets
+added task: compileDebugAndroidTestSources
+added task: processDebugAndroidTestManifest
+added task: generateDebugAndroidTestResValues
+added task: compileDebugAndroidTestRenderscript
+added task: mergeDebugAndroidTestResources
+added task: mergeDebugAndroidTestShaders
+added task: compileDebugAndroidTestShaders
+added task: mergeDebugAndroidTestAssets
+added task: compressDebugAndroidTestAssets
+added task: generateDebugAndroidTestBuildConfig
+added task: checkDebugAndroidTestAarMetadata
+added task: processDebugAndroidTestResources
+added task: processDebugAndroidTestJavaRes
+added task: compileDebugAndroidTestAidl
+added task: mergeDebugAndroidTestJniLibFolders
+added task: mergeDebugAndroidTestNativeLibs
+added task: javaPreCompileDebugAndroidTest
+added task: compileDebugAndroidTestJavaWithJavac
+added task: bundleDebugAndroidTestClasses
+added task: mergeDebugAndroidTestGeneratedProguardFiles
+added task: mergeDebugAndroidTestJavaResource
+added task: checkDebugAndroidTestDuplicateClasses
+added task: dexBuilderDebugAndroidTest
+added task: desugarDebugAndroidTestFileDependencies
+added task: mergeExtDexDebugAndroidTest
+added task: mergeProjectDexDebugAndroidTest
+added task: mergeLibDexDebugAndroidTest
+added task: validateSigningDebugAndroidTest
+added task: signingConfigWriterDebugAndroidTest
+added task: writeDebugAndroidTestSigningConfigVersions
+added task: packageDebugAndroidTest
+added task: installDebugAndroidTest
+added task: uninstallDebugAndroidTest
+added task: connectedDebugAndroidTest
+added task: assembleDebugUnitTest
+added task: preDebugUnitTestBuild
+added task: generateDebugUnitTestSources
+added task: generateDebugUnitTestResources
+added task: generateDebugUnitTestAssets
+added task: compileDebugUnitTestSources
+added task: processDebugUnitTestJavaRes
+added task: javaPreCompileDebugUnitTest
+added task: compileDebugUnitTestJavaWithJavac
+added task: bundleDebugUnitTestClasses
+added task: testDebugUnitTest
+added task: assembleReleaseUnitTest
+added task: preReleaseUnitTestBuild
+added task: generateReleaseUnitTestSources
+added task: generateReleaseUnitTestResources
+added task: generateReleaseUnitTestAssets
+added task: compileReleaseUnitTestSources
+added task: processReleaseUnitTestJavaRes
+added task: javaPreCompileReleaseUnitTest
+added task: compileReleaseUnitTestJavaWithJavac
+added task: bundleReleaseUnitTestClasses
+added task: testReleaseUnitTest
+added task: generateDebugLintModel
+added task: lintAnalyzeDebug
+added task: lintDebug
+added task: lintFixDebug
+added task: generateReleaseLintModel
+added task: lintAnalyzeRelease
+added task: lintRelease
+added task: lintVitalRelease
+added task: lintVitalAnalyzeRelease
+added task: lintFixRelease
+added task: androidDependencies
+added task: signingReport
+added task: analyzeDebugDependencies
+added task: analyzeReleaseDependencies
+added task: analyzeDebugAndroidTestDependencies
+added task: analyzeDebugUnitTestDependencies
+added task: analyzeReleaseUnitTestDependencies
+added task: compileDebugAndroidTestKotlin
+added task: compileDebugUnitTestKotlin
+added task: compileDebugKotlin
+added task: compileReleaseUnitTestKotlin
+added task: compileReleaseKotlin
+added task: bundle
+command: ./gradlew assembleDebug
+task: preBuild, class: org.gradle.api.DefaultTask_Decorated
+task: preDebugBuild, class: com.android.build.gradle.internal.tasks.AndroidVariantTask_Decorated
+task: compileDebugAidl, class: com.android.build.gradle.tasks.AidlCompile_Decorated
+task: compileDebugRenderscript, class: com.android.build.gradle.tasks.RenderscriptCompile_Decorated
+task: generateDebugBuildConfig, class: com.android.build.gradle.tasks.GenerateBuildConfig_Decorated
+task: checkDebugAarMetadata, class: com.android.build.gradle.internal.tasks.CheckAarMetadataTask_Decorated
+task: generateDebugResValues, class: com.android.build.gradle.tasks.GenerateResValues_Decorated
+task: generateDebugResources, class: org.gradle.api.DefaultTask_Decorated
+task: mergeDebugResources, class: com.android.build.gradle.tasks.MergeResources_Decorated
+task: createDebugCompatibleScreenManifests, class: com.android.build.gradle.tasks.CompatibleScreensManifest_Decorated
+task: extractDeepLinksDebug, class: com.android.build.gradle.tasks.ExtractDeepLinksTask_Decorated
+task: processDebugMainManifest, class: com.android.build.gradle.tasks.ProcessApplicationManifest_Decorated
+task: processDebugManifest, class: com.android.build.gradle.tasks.ProcessMultiApkApplicationManifest_Decorated
+task: processDebugManifestForPackage, class: com.android.build.gradle.tasks.ProcessPackagedManifestTask_Decorated
+task: processDebugResources, class: com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask_Decorated
+task: compileDebugKotlin, class: org.jetbrains.kotlin.gradle.tasks.KotlinCompile_Decorated
+task: javaPreCompileDebug, class: com.android.build.gradle.tasks.JavaPreCompileTask_Decorated
+task: compileDebugJavaWithJavac, class: org.gradle.api.tasks.compile.JavaCompile_Decorated
+task: compileDebugSources, class: org.gradle.api.DefaultTask_Decorated
+task: mergeDebugNativeDebugMetadata, class: com.android.build.gradle.internal.tasks.MergeNativeDebugMetadataTask_Decorated
+task: mergeDebugShaders, class: com.android.build.gradle.tasks.MergeSourceSetFolders_Decorated
+task: compileDebugShaders, class: com.android.build.gradle.tasks.ShaderCompile_Decorated
+task: generateDebugAssets, class: org.gradle.api.DefaultTask_Decorated
+task: mergeDebugAssets, class: com.android.build.gradle.tasks.MergeSourceSetFolders_Decorated
+task: compressDebugAssets, class: com.android.build.gradle.internal.tasks.CompressAssetsTask_Decorated
+task: processDebugJavaRes, class: com.android.build.gradle.internal.tasks.ProcessJavaResTask_Decorated
+task: mergeDebugJavaResource, class: com.android.build.gradle.internal.tasks.MergeJavaResourceTask_Decorated
+task: checkDebugDuplicateClasses, class: com.android.build.gradle.internal.tasks.CheckDuplicateClassesTask_Decorated
+task: desugarDebugFileDependencies, class: com.android.build.gradle.internal.tasks.DexFileDependenciesTask_Decorated
+task: mergeExtDexDebug, class: com.android.build.gradle.internal.tasks.DexMergingTask_Decorated
+task: mergeLibDexDebug, class: com.android.build.gradle.internal.tasks.DexMergingTask_Decorated
+task: dexBuilderDebug, class: com.android.build.gradle.internal.tasks.DexArchiveBuilderTask_Decorated
+task: mergeProjectDexDebug, class: com.android.build.gradle.internal.tasks.DexMergingTask_Decorated
+task: mergeDebugJniLibFolders, class: com.android.build.gradle.tasks.MergeSourceSetFolders_Decorated
+task: mergeDebugNativeLibs, class: com.android.build.gradle.internal.tasks.MergeNativeLibsTask_Decorated
+task: stripDebugDebugSymbols, class: com.android.build.gradle.internal.tasks.StripDebugSymbolsTask_Decorated
+task: validateSigningDebug, class: com.android.build.gradle.internal.tasks.ValidateSigningTask_Decorated
+task: writeDebugAppMetadata, class: com.android.build.gradle.internal.tasks.AppMetadataTask_Decorated
+task: writeDebugSigningConfigVersions, class: com.android.build.gradle.internal.tasks.SigningConfigVersionsWriterTask_Decorated
+task: packageDebug, class: com.android.build.gradle.tasks.PackageApplication_Decorated
+task: assembleDebug, class: org.gradle.api.DefaultTask_Decorated
+
+> Task :app:preBuild UP-TO-DATE
+inputs: 
+outputs: 
+
+> Task :app:preDebugBuild UP-TO-DATE
+inputs: 
+outputs: 
+
+> Task :app:compileDebugAidl NO-SOURCE
+inputs: 
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/framework.aidl
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/aidl
+   /Users/ruangguru/.gradle/caches/transforms-3/bcdfbe4ebc9bf523abb78ba71cbfbd6d/transformed/versionedparcelable-1.1.1/aidl
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/aidl_source_output_dir/debug/out
+
+> Task :app:compileDebugRenderscript NO-SOURCE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/renderscript_lib/debug/lib
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/rs/debug/obj
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/res/rs/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/renderscript_source_output_dir/debug/out
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/source/buildConfig/debug
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+inputs: 
+   /Users/ruangguru/.gradle/caches/transforms-3/54cc05d86dd483779727248e1c62337c/transformed/jetified-core-ktx-1.6.0/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/a5249f174c5ab8883e2bb4370f5e9005/transformed/constraintlayout-2.1.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/8c4c6185b4d94bc27f1655d375ac5f2b/transformed/appcompat-1.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/517139d0109b43e9697a84dfa747aabd/transformed/fragment-1.3.6/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/581498d8846c924e90ef60baeff156b2/transformed/jetified-activity-1.2.4/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/641f5cb7654294c3b470232fa13e0836/transformed/jetified-appcompat-resources-1.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/2c6676d8e6ce7578044854d3f6c87027/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/ae33022fca196ee9c26acdebf4d60387/transformed/jetified-savedstate-1.1.0/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/a6160bf5078e34119f17a97bf135848e/transformed/lifecycle-runtime-2.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/37979a3df69b6b7f429cb7cc3d5acb51/transformed/lifecycle-viewmodel-2.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/03617468eaea8848553d24215ee909b6/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/65e3640f6a492dd512d46d9b660d2023/transformed/lifecycle-livedata-core-2.3.1/META-INF/com/android/build/gradle/aar-metadata.properties
+   /Users/ruangguru/.gradle/caches/transforms-3/099f9f3c85c4802691b00bdb49750ce0/transformed/jetified-annotation-experimental-1.1.0/META-INF/com/android/build/gradle/aar-metadata.properties
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/aar_metadata_check/debug
+
+> Task :app:generateDebugResValues UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/res/resValues/debug
+
+> Task :app:generateDebugResources UP-TO-DATE
+inputs: 
+outputs: 
+
+> Task :app:mergeDebugResources UP-TO-DATE
+inputs: 
+   /Users/ruangguru/.gradle/caches/transforms-3/54cc05d86dd483779727248e1c62337c/transformed/jetified-core-ktx-1.6.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/bc079e06875069af67a4d4ab889390cd/transformed/material-1.4.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/a5249f174c5ab8883e2bb4370f5e9005/transformed/constraintlayout-2.1.1/res
+   /Users/ruangguru/.gradle/caches/transforms-3/8c4c6185b4d94bc27f1655d375ac5f2b/transformed/appcompat-1.3.1/res
+   /Users/ruangguru/.gradle/caches/transforms-3/b9d90fd961bf28a7b5c29550224f686c/transformed/jetified-viewpager2-1.0.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/517139d0109b43e9697a84dfa747aabd/transformed/fragment-1.3.6/res
+   /Users/ruangguru/.gradle/caches/transforms-3/641f5cb7654294c3b470232fa13e0836/transformed/jetified-appcompat-resources-1.3.1/res
+   /Users/ruangguru/.gradle/caches/transforms-3/0513277f7d843cd2702d564dcb97793f/transformed/coordinatorlayout-1.1.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/8fe8d3536365b6cc3fbcae5e2d9db7af/transformed/transition-1.2.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/1e830eb0169d6d545d17d9eea9b4313e/transformed/recyclerview-1.1.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/ae33022fca196ee9c26acdebf4d60387/transformed/jetified-savedstate-1.1.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/a6160bf5078e34119f17a97bf135848e/transformed/lifecycle-runtime-2.3.1/res
+   /Users/ruangguru/.gradle/caches/transforms-3/37979a3df69b6b7f429cb7cc3d5acb51/transformed/lifecycle-viewmodel-2.3.1/res
+   /Users/ruangguru/.gradle/caches/transforms-3/1ee906f56ab697d53a905737686c8735/transformed/cardview-1.0.0/res
+   /Users/ruangguru/.gradle/caches/transforms-3/099f9f3c85c4802691b00bdb49750ce0/transformed/jetified-annotation-experimental-1.1.0/res
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/res
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/debug/res
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_res_blame_folder/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/data_binding_layout_info_type_merge/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/res/pngs/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/mergeDebugResources
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_res/debug
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compatible_screen_manifest/debug
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/debug/res/navigation
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/res/navigation
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/navigation_json/debug/navigation.json
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/54cc05d86dd483779727248e1c62337c/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/bc079e06875069af67a4d4ab889390cd/transformed/material-1.4.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/a5249f174c5ab8883e2bb4370f5e9005/transformed/constraintlayout-2.1.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/8c4c6185b4d94bc27f1655d375ac5f2b/transformed/appcompat-1.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/b9d90fd961bf28a7b5c29550224f686c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/517139d0109b43e9697a84dfa747aabd/transformed/fragment-1.3.6/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/581498d8846c924e90ef60baeff156b2/transformed/jetified-activity-1.2.4/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/641f5cb7654294c3b470232fa13e0836/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/81072947bf608616553de9adec159875/transformed/drawerlayout-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/0513277f7d843cd2702d564dcb97793f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/3b2278dc5b6b8c5a11681946508c9448/transformed/dynamicanimation-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/8fe8d3536365b6cc3fbcae5e2d9db7af/transformed/transition-1.2.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/464ac139ec5855214215694df9f499eb/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/69aaa32757f7e35402eed7dc9d1295b0/transformed/vectordrawable-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/a7b75707113d3b7e19ca287b2799e46a/transformed/viewpager-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/79884c7a6aa86cb834447018b80c8408/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/e0e90cf7ae56bd2a34bd2fc749aa38ab/transformed/loader-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/1e830eb0169d6d545d17d9eea9b4313e/transformed/recyclerview-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/c8dc8881824c96655aa354babef95c91/transformed/customview-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/ff55d0a67c2bd8e598a8c87e093d5a43/transformed/cursoradapter-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/2c6676d8e6ce7578044854d3f6c87027/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/ae33022fca196ee9c26acdebf4d60387/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/a6160bf5078e34119f17a97bf135848e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/37979a3df69b6b7f429cb7cc3d5acb51/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/1ee906f56ab697d53a905737686c8735/transformed/cardview-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/bcdfbe4ebc9bf523abb78ba71cbfbd6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/03617468eaea8848553d24215ee909b6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/2d713ff7b38a3456d3007f61998265aa/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/65e3640f6a492dd512d46d9b660d2023/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/aa04640ee9b04b6ba7b69b700c6eba3d/transformed/core-runtime-2.1.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/d3536955363da5d8760f7414ef10c4f0/transformed/interpolator-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/d58c602b03b6e4f05cce8a692dd5d234/transformed/documentfile-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/daa58303c75b8371536aced381c75723/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/9c8a8c806f06e3cca1d5583539801ce6/transformed/print-1.0.0/AndroidManifest.xml
+   /Users/ruangguru/.gradle/caches/transforms-3/099f9f3c85c4802691b00bdb49750ce0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/navigation_json/debug/navigation.json
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/outputs/logs/manifest-merger-debug-report.txt
+
+> Task :app:processDebugManifest UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compatible_screen_manifest/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_manifests/debug
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_manifests/debug
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/packaged_manifests/debug
+
+> Task :app:processDebugResources UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/aar_metadata_check/debug
+   /Users/ruangguru/.gradle/caches/transforms-3/231ccb28458bc941494a6f5f63f5ca30/transformed/androidx.core.ktx
+   /Users/ruangguru/.gradle/caches/transforms-3/f1df81e5b981dfe1dad5ced6f48e9e13/transformed/com.google.android.material
+   /Users/ruangguru/.gradle/caches/transforms-3/27d36a3af6f54d4ad1fa050d3927b74f/transformed/androidx.constraintlayout.widget
+   /Users/ruangguru/.gradle/caches/transforms-3/789a56f3685c79471741bb3fb5a1538b/transformed/androidx.appcompat
+   /Users/ruangguru/.gradle/caches/transforms-3/f51b1b8e6553b11e3814c5711617cf6e/transformed/androidx.viewpager2
+   /Users/ruangguru/.gradle/caches/transforms-3/15da04887f56b5ff68a43255d24fe609/transformed/androidx.fragment
+   /Users/ruangguru/.gradle/caches/transforms-3/83c3eb47a149a263990fd073673852ba/transformed/androidx.activity
+   /Users/ruangguru/.gradle/caches/transforms-3/332375d2e4b8043e39a9dc1dd2201384/transformed/androidx.appcompat.resources
+   /Users/ruangguru/.gradle/caches/transforms-3/a293cff4974c2343accac0a6c010ca48/transformed/androidx.drawerlayout
+   /Users/ruangguru/.gradle/caches/transforms-3/eb3f7620f01ed9eea0c8de68230f6391/transformed/androidx.coordinatorlayout
+   /Users/ruangguru/.gradle/caches/transforms-3/4c715be1175e7cd7acc1dabd68c9abe2/transformed/androidx.dynamicanimation
+   /Users/ruangguru/.gradle/caches/transforms-3/0cc143366be8e6b0825ac5b81ae2ea8c/transformed/androidx.transition
+   /Users/ruangguru/.gradle/caches/transforms-3/aff91557411d482f7292b0c4c85595de/transformed/androidx.vectordrawable.animated
+   /Users/ruangguru/.gradle/caches/transforms-3/5691f1072865e7bbded5e51fd6b995c9/transformed/androidx.vectordrawable
+   /Users/ruangguru/.gradle/caches/transforms-3/0c7dccc93ef82a307e1d933fb16a0600/transformed/androidx.viewpager
+   /Users/ruangguru/.gradle/caches/transforms-3/3f395c0a1e96b2a2e29163d829b15002/transformed/androidx.legacy.coreutils
+   /Users/ruangguru/.gradle/caches/transforms-3/beae7db9a1e5f5bfbbab0aedbe363ff8/transformed/androidx.loader
+   /Users/ruangguru/.gradle/caches/transforms-3/71181f196b8474f9d73a9ae8f464e7a6/transformed/androidx.recyclerview
+   /Users/ruangguru/.gradle/caches/transforms-3/8ee466ca6faa728a2e0d1bdaad56718c/transformed/androidx.customview
+   /Users/ruangguru/.gradle/caches/transforms-3/208ef20adf596c32547a210c4f27de28/transformed/androidx.core
+   /Users/ruangguru/.gradle/caches/transforms-3/42f82ba248fa021c0fd483aee2ffaf6f/transformed/androidx.cursoradapter
+   /Users/ruangguru/.gradle/caches/transforms-3/3212e416dc71bb262adca38ae095641b/transformed/androidx.lifecycle.viewmodel.savedstate
+   /Users/ruangguru/.gradle/caches/transforms-3/7821422e3958a8f6da24c4524e8b9f45/transformed/androidx.savedstate
+   /Users/ruangguru/.gradle/caches/transforms-3/b9409810b6bbbcb15b0e08c854b4e562/transformed/androidx.lifecycle.runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/97577d5cbd61718f427f61034a3f5e6c/transformed/androidx.lifecycle.viewmodel
+   /Users/ruangguru/.gradle/caches/transforms-3/c7d3d99604d1520273f06a36ba7c10c8/transformed/androidx.cardview
+   /Users/ruangguru/.gradle/caches/transforms-3/8c898a7d3921d60b8fcf64787bdbc61c/transformed/androidx.versionedparcelable
+   /Users/ruangguru/.gradle/caches/transforms-3/8d07de9bb2b6abfbbc944ef272f1aa1e/transformed/androidx.tracing
+   /Users/ruangguru/.gradle/caches/transforms-3/96d33be6e6493fb0e72e73ef9cef730a/transformed/androidx.lifecycle.livedata
+   /Users/ruangguru/.gradle/caches/transforms-3/844719135f46dd992ee8e713107f3f01/transformed/androidx.lifecycle.livedata.core
+   /Users/ruangguru/.gradle/caches/transforms-3/e2bb896315ae8d6f6a016d72a542c06e/transformed/androidx.arch.core
+   /Users/ruangguru/.gradle/caches/transforms-3/e5eda6adaa19c66e576926ed9534e573/transformed/androidx.interpolator
+   /Users/ruangguru/.gradle/caches/transforms-3/765e29dfe0828cbd22b57c6eb3b0fdb5/transformed/androidx.documentfile
+   /Users/ruangguru/.gradle/caches/transforms-3/5c49b66c8b594ee05f1d63e35093580b/transformed/androidx.localbroadcastmanager
+   /Users/ruangguru/.gradle/caches/transforms-3/8c9ac662a7d844d4130f08decb701b6e/transformed/androidx.print
+   /Users/ruangguru/.gradle/caches/transforms-3/73f55dc37b30866b08d7ab27a1f99c6d/transformed/androidx.annotation.experimental
+   /Users/ruangguru/.gradle/caches/transforms-3/c0522487158a304e7cabaa624a88f732/transformed/androidx.core.ktx-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/74cd1bae3f20b6b816a260bb26f13519/transformed/com.google.android.material-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/5db680ac4e5c6c4203837407def122dd/transformed/androidx.constraintlayout.widget-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/74a7bbef04001c1946ed8618481621e2/transformed/androidx.appcompat-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/5d87c1df6791bbdc7e2d88ddae9b8191/transformed/androidx.viewpager2-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/fc4ecfc978a45e8190a80e7f80620e27/transformed/androidx.fragment-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/3a93d4e3610208675c0781c397e04d62/transformed/androidx.activity-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/afeddf2b2c37f1a0696a1f249360105b/transformed/androidx.appcompat.resources-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/0b2a0bcd7d340e357eb7fde852f21f2a/transformed/androidx.drawerlayout-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/42a812b0198d6091c1ace3ae3eb6c499/transformed/androidx.coordinatorlayout-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/e5418015b7cc698f6d26be1a3fc2b151/transformed/androidx.dynamicanimation-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/d1b9ea1f42e7d5c78863d3fea8bd57eb/transformed/androidx.transition-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/2254b3e8756fb0bcfd756151e981106e/transformed/androidx.vectordrawable.animated-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/2af139a769e07773e7536592e501bd9b/transformed/androidx.vectordrawable-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/bab0fb5e73a5b50a7ec26f8fca9dacb4/transformed/androidx.viewpager-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/b8b919d77e41ba52561038842809e3f2/transformed/androidx.legacy.coreutils-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/04f5892b6fe86bddb3b1d8b8761f8a8a/transformed/androidx.loader-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/c70ee089368fe009d39387cad1749d07/transformed/androidx.recyclerview-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/2d4c72235b239e3ffa31f5af2cadf827/transformed/androidx.customview-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/bda49d37921958ec0abbd15fc0728c63/transformed/androidx.core-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/b04754720e2cef18e30483316ba150f7/transformed/androidx.cursoradapter-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/324c09eb52bab75826e91c84a955e05b/transformed/androidx.lifecycle.viewmodel.savedstate-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/aa5426affa93253021e2f0451a09f6ce/transformed/androidx.savedstate-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/13db94b0fb2e8e5cbc60471ad9692eeb/transformed/androidx.lifecycle.runtime-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/4b263d2c464b380c6543f876254f2ece/transformed/androidx.lifecycle.viewmodel-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/87476c417a184f59b630b167faea3020/transformed/androidx.cardview-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/1efd57c02247d6536e6c9cad54d50cdd/transformed/androidx.versionedparcelable-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/5ae3d8ef1d12ab096e5b708a4db65a61/transformed/androidx.tracing-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/e2fbca3f36b882783c74ff3db962effc/transformed/androidx.lifecycle.livedata-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/f2519d81997bb7f4c01a5e0f2a8982b5/transformed/androidx.lifecycle.livedata.core-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/a6fbf9ea9667be9453361486c1d2f4e6/transformed/androidx.arch.core-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/5cd41a2ff903754c294e4ec197b8b4f6/transformed/androidx.interpolator-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/73ac4e7e732e6fba8581725a2c246a45/transformed/androidx.documentfile-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/d2ee32bfd5840908e57c8a345c2cc38b/transformed/androidx.localbroadcastmanager-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/21f2b883eeb7df0f5a66f157e2e9b1bc/transformed/androidx.print-r.txt
+   /Users/ruangguru/.gradle/caches/transforms-3/2e4a7e88020682ef2c5231f1d276c6eb/transformed/androidx.annotation.experimental-r.txt
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_res/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/packaged_manifests/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_manifests/debug
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/android.jar
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/processDebugResources
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/processed_res/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/runtime_symbol_list/debug/R.txt
+
+> Task :app:compileDebugKotlin UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b6c295494b09971eabed49e8b7d79ba7/transformed/jetified-core-ktx-1.6.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bb53b535dd46d17abff34d68d13a6950/transformed/jetified-kotlin-stdlib-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fde3fac1f1e4391de3d27e2603b0c590/transformed/jetified-annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5cb41688f7667342b8729a2e784d16a1/transformed/jetified-kotlin-stdlib-common-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c50388b8d1b795a01b9e309ff991b155/transformed/material-1.4.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/704e7ac18998de72252dae3d5671ae95/transformed/appcompat-1.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b13200dd72eefc4264e1f65ae6c3adbf/transformed/jetified-viewpager2-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b39013a4edfc3f03f1dcc4f19db1095e/transformed/fragment-1.3.6-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/657ad2399fa356a062bc1da208e13c1e/transformed/jetified-activity-1.2.4-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f6a112f86dca6881849c60b5b39ec9d3/transformed/jetified-appcompat-resources-1.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2afd2281e988790aa973a12e1858ebe7/transformed/drawerlayout-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/652e327ac37c7010082bb28229b24b9b/transformed/coordinatorlayout-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/6facbad4e79cf933b08ad88306b3961f/transformed/dynamicanimation-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ec8d7b6c939b470113839e63bb92d81f/transformed/recyclerview-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fb3e0b6c240797b3c7302a3df517b9b6/transformed/transition-1.2.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/dec6d2f866fa8d4a8f09f03f16bca733/transformed/vectordrawable-animated-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8187da43dd58c44161ba96adecca1c33/transformed/vectordrawable-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f39861ccc823e3645a0009388b6a9351/transformed/viewpager-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/62af191eeacf6bac237260f95cd33df3/transformed/legacy-support-core-utils-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/daff8f448e1e2d161b04957e91c4ce6c/transformed/loader-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ee37e84b008fda58502f52399d96543e/transformed/customview-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/98ddca2cc8178f48bc009fe784013630/transformed/core-1.6.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9eacc1ab8c5fbd1ece60f0b3e5031dc1/transformed/cursoradapter-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ed7b299e9dae78d1b11042553d29b0e4/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/e464771d2fe3fb9d090867cd734548a4/transformed/jetified-savedstate-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c18d72310e0943383b729b2ee0e98e77/transformed/cardview-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b0191cbc5756b24856cfe7d82b0e7b00/transformed/lifecycle-runtime-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5bc0cd0fc849c3e11ec32d4d9aa8064e/transformed/versionedparcelable-1.1.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fe1fca1a38450fa4408224b57bf509c3/transformed/lifecycle-viewmodel-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/51d077f66c7ef6efda9a054fb22a12d0/transformed/lifecycle-livedata-2.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/00dda948f7886361189050e66975c0d9/transformed/lifecycle-livedata-core-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/dd5ecaf29a5796205760fb1633affdf4/transformed/core-runtime-2.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2521dc6cc5aafb8d506280ce21b19969/transformed/interpolator-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a700471a475cd22e742aa0065e545eff/transformed/documentfile-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3cfd1518c54d0ab725b9657c4a80bac8/transformed/localbroadcastmanager-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/952bbc3a7c978197a7b7abaccb46c410/transformed/print-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/716ffa882bec65eeca1e8b2b7078f9c4/transformed/jetified-annotation-experimental-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2a9bd7a3be141bb1a596a35bd650e8cb/transformed/constraintlayout-2.1.1-api.jar
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/android.jar
+   /Users/ruangguru/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/java/id/yuana/gradle/notification/MainActivity.kt
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.5.20/1900e8b9aca0a9caffd45b99b36e3720a0a284f8/kotlin-compiler-embeddable-1.5.20.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.20/63810951f09a27f7827977f1bc21094042a915e/kotlin-reflect-1.5.20.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.20/9de35cc611bcecec8edce1d56d8e659953806751/kotlin-stdlib-1.5.20.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.20/4381bb58d37b84d4d1afe55ec35542dd9b77e101/kotlin-script-runtime-1.5.20.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.5.20/36c38cda019834dcd2959cc33a12768adcd94256/kotlin-daemon-embeddable-1.5.20.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.20/3d79dbd48bf605f4aac1e7028981a1953e245cbb/kotlin-stdlib-common-1.5.20.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/source/buildConfig/debug/id/yuana/gradle/notification/BuildConfig.java
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/tmp/kotlin-classes/debug
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b6c295494b09971eabed49e8b7d79ba7/transformed/jetified-core-ktx-1.6.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bb53b535dd46d17abff34d68d13a6950/transformed/jetified-kotlin-stdlib-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fde3fac1f1e4391de3d27e2603b0c590/transformed/jetified-annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5cb41688f7667342b8729a2e784d16a1/transformed/jetified-kotlin-stdlib-common-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c50388b8d1b795a01b9e309ff991b155/transformed/material-1.4.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/704e7ac18998de72252dae3d5671ae95/transformed/appcompat-1.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b13200dd72eefc4264e1f65ae6c3adbf/transformed/jetified-viewpager2-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b39013a4edfc3f03f1dcc4f19db1095e/transformed/fragment-1.3.6-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/657ad2399fa356a062bc1da208e13c1e/transformed/jetified-activity-1.2.4-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f6a112f86dca6881849c60b5b39ec9d3/transformed/jetified-appcompat-resources-1.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2afd2281e988790aa973a12e1858ebe7/transformed/drawerlayout-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/652e327ac37c7010082bb28229b24b9b/transformed/coordinatorlayout-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/6facbad4e79cf933b08ad88306b3961f/transformed/dynamicanimation-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ec8d7b6c939b470113839e63bb92d81f/transformed/recyclerview-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fb3e0b6c240797b3c7302a3df517b9b6/transformed/transition-1.2.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/dec6d2f866fa8d4a8f09f03f16bca733/transformed/vectordrawable-animated-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8187da43dd58c44161ba96adecca1c33/transformed/vectordrawable-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f39861ccc823e3645a0009388b6a9351/transformed/viewpager-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/62af191eeacf6bac237260f95cd33df3/transformed/legacy-support-core-utils-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/daff8f448e1e2d161b04957e91c4ce6c/transformed/loader-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ee37e84b008fda58502f52399d96543e/transformed/customview-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/98ddca2cc8178f48bc009fe784013630/transformed/core-1.6.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9eacc1ab8c5fbd1ece60f0b3e5031dc1/transformed/cursoradapter-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ed7b299e9dae78d1b11042553d29b0e4/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/e464771d2fe3fb9d090867cd734548a4/transformed/jetified-savedstate-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c18d72310e0943383b729b2ee0e98e77/transformed/cardview-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b0191cbc5756b24856cfe7d82b0e7b00/transformed/lifecycle-runtime-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5bc0cd0fc849c3e11ec32d4d9aa8064e/transformed/versionedparcelable-1.1.1-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fe1fca1a38450fa4408224b57bf509c3/transformed/lifecycle-viewmodel-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/51d077f66c7ef6efda9a054fb22a12d0/transformed/lifecycle-livedata-2.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/00dda948f7886361189050e66975c0d9/transformed/lifecycle-livedata-core-2.3.1-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/dd5ecaf29a5796205760fb1633affdf4/transformed/core-runtime-2.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2521dc6cc5aafb8d506280ce21b19969/transformed/interpolator-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a700471a475cd22e742aa0065e545eff/transformed/documentfile-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3cfd1518c54d0ab725b9657c4a80bac8/transformed/localbroadcastmanager-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/952bbc3a7c978197a7b7abaccb46c410/transformed/print-1.0.0-api.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/716ffa882bec65eeca1e8b2b7078f9c4/transformed/jetified-annotation-experimental-1.1.0-api.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2a9bd7a3be141bb1a596a35bd650e8cb/transformed/constraintlayout-2.1.1-api.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/tmp/kotlin-classes/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/source/buildConfig/debug/id/yuana/gradle/notification/BuildConfig.java
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/android.jar
+   /Users/ruangguru/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/javac/debug/classes
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/generated/ap_generated_sources/debug/out
+
+> Task :app:compileDebugSources UP-TO-DATE
+inputs: 
+outputs: 
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/outputs/native-debug-symbols/debug/native-debug-symbols.zip
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/shaders
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/debug/shaders
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/mergeDebugShaders
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_shaders/debug/out
+
+> Task :app:compileDebugShaders NO-SOURCE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_shaders/debug/out
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/shader_assets/debug/out
+
+> Task :app:generateDebugAssets UP-TO-DATE
+inputs: 
+outputs: 
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/shader_assets/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/assets
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/debug/assets
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/mergeDebugAssets
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_assets/debug/out
+
+> Task :app:compressDebugAssets UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_assets/debug/out
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compressed_assets/debug/out
+
+> Task :app:processDebugJavaRes NO-SOURCE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/java_res/debug/out
+
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+inputs: 
+   /Users/ruangguru/.gradle/caches/transforms-3/54cc05d86dd483779727248e1c62337c/transformed/jetified-core-ktx-1.6.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bc079e06875069af67a4d4ab889390cd/transformed/material-1.4.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a5249f174c5ab8883e2bb4370f5e9005/transformed/constraintlayout-2.1.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8c4c6185b4d94bc27f1655d375ac5f2b/transformed/appcompat-1.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bb53b535dd46d17abff34d68d13a6950/transformed/jetified-kotlin-stdlib-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b9d90fd961bf28a7b5c29550224f686c/transformed/jetified-viewpager2-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/517139d0109b43e9697a84dfa747aabd/transformed/fragment-1.3.6/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/581498d8846c924e90ef60baeff156b2/transformed/jetified-activity-1.2.4/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/641f5cb7654294c3b470232fa13e0836/transformed/jetified-appcompat-resources-1.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/81072947bf608616553de9adec159875/transformed/drawerlayout-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/0513277f7d843cd2702d564dcb97793f/transformed/coordinatorlayout-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3b2278dc5b6b8c5a11681946508c9448/transformed/dynamicanimation-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8fe8d3536365b6cc3fbcae5e2d9db7af/transformed/transition-1.2.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/464ac139ec5855214215694df9f499eb/transformed/vectordrawable-animated-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/69aaa32757f7e35402eed7dc9d1295b0/transformed/vectordrawable-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a7b75707113d3b7e19ca287b2799e46a/transformed/viewpager-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/79884c7a6aa86cb834447018b80c8408/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/e0e90cf7ae56bd2a34bd2fc749aa38ab/transformed/loader-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/1e830eb0169d6d545d17d9eea9b4313e/transformed/recyclerview-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c8dc8881824c96655aa354babef95c91/transformed/customview-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ff55d0a67c2bd8e598a8c87e093d5a43/transformed/cursoradapter-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2c6676d8e6ce7578044854d3f6c87027/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ae33022fca196ee9c26acdebf4d60387/transformed/jetified-savedstate-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a6160bf5078e34119f17a97bf135848e/transformed/lifecycle-runtime-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/37979a3df69b6b7f429cb7cc3d5acb51/transformed/lifecycle-viewmodel-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/1ee906f56ab697d53a905737686c8735/transformed/cardview-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bcdfbe4ebc9bf523abb78ba71cbfbd6d/transformed/versionedparcelable-1.1.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/03617468eaea8848553d24215ee909b6/transformed/jetified-tracing-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2d713ff7b38a3456d3007f61998265aa/transformed/lifecycle-livedata-2.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/65e3640f6a492dd512d46d9b660d2023/transformed/lifecycle-livedata-core-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/aa04640ee9b04b6ba7b69b700c6eba3d/transformed/core-runtime-2.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/d3536955363da5d8760f7414ef10c4f0/transformed/interpolator-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/d58c602b03b6e4f05cce8a692dd5d234/transformed/documentfile-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/daa58303c75b8371536aced381c75723/transformed/localbroadcastmanager-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9c8a8c806f06e3cca1d5583539801ce6/transformed/print-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/099f9f3c85c4802691b00bdb49750ce0/transformed/jetified-annotation-experimental-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f955f2e7d09f92a5eae99f30a3520824/transformed/jetified-constraintlayout-core-1.0.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fde3fac1f1e4391de3d27e2603b0c590/transformed/jetified-annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5cb41688f7667342b8729a2e784d16a1/transformed/jetified-kotlin-stdlib-common-1.5.10.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_java_res/debug/base.jar
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+inputs: 
+   /Users/ruangguru/.gradle/caches/transforms-3/544555e56d5670076cf1faa6ae789429/transformed/jetified-core-ktx-1.6.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/4c84f385566acbd31b82c24bdbc72136/transformed/material-1.4.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/ba96f4ec7642464f0a7975cbbac75880/transformed/constraintlayout-2.1.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/3061132f0fce86287c228cb3fac05c3a/transformed/appcompat-1.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/ba987d6c02cefed0e10a8ad6d39fd916/transformed/jetified-kotlin-stdlib-1.5.10
+   /Users/ruangguru/.gradle/caches/transforms-3/6b1d6665e17bdf7420fe2a26e6d8be26/transformed/jetified-viewpager2-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/63f0041fd10455d9e232b2474b489074/transformed/fragment-1.3.6-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c20acbf43614ae4c6c10a2fb8f7985ba/transformed/jetified-activity-1.2.4-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/ada3b5974e7946199cc5171eda6f8ce5/transformed/jetified-appcompat-resources-1.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/263bb922fc87b13f0019222278d3e528/transformed/drawerlayout-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/cbf2cad1217f9f3da10ca336bc193950/transformed/coordinatorlayout-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/b5ca5059a95d76d112a59fff9e39d005/transformed/dynamicanimation-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/4f43b17fd7e50b4000ef474a3d2763b2/transformed/transition-1.2.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c6f9679c0a6f9b04130eb734f0e7b3f1/transformed/vectordrawable-animated-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/6261d1e400b69014c2c7c235af125a13/transformed/vectordrawable-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/05cfc41c46b26fa278e85e07525da3e4/transformed/viewpager-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/2830212cf5732d9071e40f336912a72b/transformed/legacy-support-core-utils-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/613cd2f578521c54e268bf12a34ce91f/transformed/loader-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/5c9bdc7d61198e51b9882fe0171ed1ef/transformed/recyclerview-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/9a5ca81f3d5281f7cd905547f3969f87/transformed/customview-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/0964c4ddbc976d8b70b680c93b4ca310/transformed/core-1.6.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/2a65a1af34d2edebd4bc8a0583732bce/transformed/cursoradapter-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/fcfc9dca65af4fff80d43963e19b947e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/4f60e47d1c4cbc3a4be49d54310f6dab/transformed/jetified-savedstate-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/d5fe0d0c6882dba89f4d0d87cdc45e9a/transformed/lifecycle-runtime-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/cc20ca4dc54f46637db54cfe8cb4c7df/transformed/lifecycle-viewmodel-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/940083519a77d409fb57cd1ab1448fc6/transformed/cardview-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/de2d98dff70177a7ff0a228cf9b21a05/transformed/versionedparcelable-1.1.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/bdb8902289e23690dd743bde4b0338be/transformed/jetified-tracing-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/b2e20be81ad7b037cc92ee780dbe083a/transformed/collection-1.1.0
+   /Users/ruangguru/.gradle/caches/transforms-3/6babe3f09cf90c692c785376ec56c97a/transformed/lifecycle-livedata-2.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/e09c4ccd48bb8e4875cde02a33079862/transformed/lifecycle-livedata-core-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/7172d70067c17ec837ff6e136d368ab1/transformed/lifecycle-common-2.3.1
+   /Users/ruangguru/.gradle/caches/transforms-3/90570c9ac1cd3d251f322af98644ccd6/transformed/core-runtime-2.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c719a66729f6ac4278df299e1da35116/transformed/core-common-2.1.0
+   /Users/ruangguru/.gradle/caches/transforms-3/f2f0aee4e0669569fab44a32acffa98b/transformed/interpolator-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/ee58408b36d8cd551213b396eb871831/transformed/documentfile-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/4a6b35b4dbf59d4f702f9488e63304ff/transformed/localbroadcastmanager-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/9e9568f1e91bead1262e61ed287d4828/transformed/print-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/702f841dfe286d4b2e85f3545e8df992/transformed/annotation-1.2.0
+   /Users/ruangguru/.gradle/caches/transforms-3/186b6269d242ade49b78a58941cf8111/transformed/jetified-annotation-experimental-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/70876443674ba7ee4fb9e3326de7673d/transformed/jetified-constraintlayout-core-1.0.1
+   /Users/ruangguru/.gradle/caches/transforms-3/03aba2a888737635fb64e919d31f3178/transformed/jetified-annotations-13.0
+   /Users/ruangguru/.gradle/caches/transforms-3/2e8048e4646dff7153b4a547c5f02889/transformed/jetified-kotlin-stdlib-common-1.5.10
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/duplicate_classes_check/debug
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+inputs: 
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/android.jar
+   /Users/ruangguru/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/54cc05d86dd483779727248e1c62337c/transformed/jetified-core-ktx-1.6.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bc079e06875069af67a4d4ab889390cd/transformed/material-1.4.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a5249f174c5ab8883e2bb4370f5e9005/transformed/constraintlayout-2.1.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8c4c6185b4d94bc27f1655d375ac5f2b/transformed/appcompat-1.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bb53b535dd46d17abff34d68d13a6950/transformed/jetified-kotlin-stdlib-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b9d90fd961bf28a7b5c29550224f686c/transformed/jetified-viewpager2-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/517139d0109b43e9697a84dfa747aabd/transformed/fragment-1.3.6/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/581498d8846c924e90ef60baeff156b2/transformed/jetified-activity-1.2.4/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/641f5cb7654294c3b470232fa13e0836/transformed/jetified-appcompat-resources-1.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/81072947bf608616553de9adec159875/transformed/drawerlayout-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/0513277f7d843cd2702d564dcb97793f/transformed/coordinatorlayout-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3b2278dc5b6b8c5a11681946508c9448/transformed/dynamicanimation-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/8fe8d3536365b6cc3fbcae5e2d9db7af/transformed/transition-1.2.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/464ac139ec5855214215694df9f499eb/transformed/vectordrawable-animated-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/69aaa32757f7e35402eed7dc9d1295b0/transformed/vectordrawable-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a7b75707113d3b7e19ca287b2799e46a/transformed/viewpager-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/79884c7a6aa86cb834447018b80c8408/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/e0e90cf7ae56bd2a34bd2fc749aa38ab/transformed/loader-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/1e830eb0169d6d545d17d9eea9b4313e/transformed/recyclerview-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/c8dc8881824c96655aa354babef95c91/transformed/customview-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3d9d0320da2017f49ed20d325d17bec3/transformed/core-1.6.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ff55d0a67c2bd8e598a8c87e093d5a43/transformed/cursoradapter-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2c6676d8e6ce7578044854d3f6c87027/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ae33022fca196ee9c26acdebf4d60387/transformed/jetified-savedstate-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/a6160bf5078e34119f17a97bf135848e/transformed/lifecycle-runtime-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/37979a3df69b6b7f429cb7cc3d5acb51/transformed/lifecycle-viewmodel-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/1ee906f56ab697d53a905737686c8735/transformed/cardview-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bcdfbe4ebc9bf523abb78ba71cbfbd6d/transformed/versionedparcelable-1.1.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/03617468eaea8848553d24215ee909b6/transformed/jetified-tracing-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2d713ff7b38a3456d3007f61998265aa/transformed/lifecycle-livedata-2.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/65e3640f6a492dd512d46d9b660d2023/transformed/lifecycle-livedata-core-2.3.1/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/aa04640ee9b04b6ba7b69b700c6eba3d/transformed/core-runtime-2.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/d3536955363da5d8760f7414ef10c4f0/transformed/interpolator-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/d58c602b03b6e4f05cce8a692dd5d234/transformed/documentfile-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/daa58303c75b8371536aced381c75723/transformed/localbroadcastmanager-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9c8a8c806f06e3cca1d5583539801ce6/transformed/print-1.0.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/099f9f3c85c4802691b00bdb49750ce0/transformed/jetified-annotation-experimental-1.1.0/jars/classes.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f955f2e7d09f92a5eae99f30a3520824/transformed/jetified-constraintlayout-core-1.0.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fde3fac1f1e4391de3d27e2603b0c590/transformed/jetified-annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5cb41688f7667342b8729a2e784d16a1/transformed/jetified-kotlin-stdlib-common-1.5.10.jar
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/external_file_lib_dex_archives/debug
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/.gradle/caches/transforms-3/5033d18bedea210423b917da245e538d/transformed/jetified-core-ktx-1.6.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/562cf03caa614b24a1058ba8c2325450/transformed/material-1.4.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c810207d16232282c8fca1dbb1b4be9f/transformed/constraintlayout-2.1.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c6cc35e7f8e512c5cede53e0ff265af2/transformed/appcompat-1.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/eb0a825df87c9b9f541aa2b0b1c02ffc/transformed/jetified-kotlin-stdlib-1.5.10
+   /Users/ruangguru/.gradle/caches/transforms-3/bf820bb4885e32c21af9fd7e9f8dc018/transformed/jetified-viewpager2-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/699efeeec050f33c6964f43c795d763b/transformed/fragment-1.3.6-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/c98400ce75d804d3bfc5d206c58c8151/transformed/jetified-activity-1.2.4-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/d2444614a16b564eb109c34d747b70b4/transformed/jetified-appcompat-resources-1.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/54b52c439790b4f4c8d637bf214c8741/transformed/drawerlayout-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/d681b533eadcf1ff13896b641a213713/transformed/coordinatorlayout-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/85572b76619ba8e9a4369da660cbb74e/transformed/dynamicanimation-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/63dbfcd31f45874cdcbc557db4f1dd0d/transformed/transition-1.2.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/60c74b04b4a857bfdf2394b6d7754bc4/transformed/vectordrawable-animated-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/f26abe55fee708777bd4cdbc71a7c908/transformed/vectordrawable-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/7fd8fa83c54f9d6a579d71781a8f8194/transformed/viewpager-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/3de10d5d4fc954ac0dc1f8a9894ca9c8/transformed/legacy-support-core-utils-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/97d35777029f25b6e70d2ec91710f551/transformed/loader-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/0db3359f2b4587795fbd411aee56fe7c/transformed/recyclerview-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/8bebec8d0d10e4f249c94f0e6d8ec52e/transformed/customview-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/e9a384a7fab5acaef8fedaff7051c0da/transformed/core-1.6.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/08beeec37de33687d6badb92cf8ff322/transformed/cursoradapter-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/02f5e9c522aa543a0628d98602ca7c9c/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/72602438786c39551e3cc08763e48191/transformed/jetified-savedstate-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/f670cd461a85c5d7f4acd3d120b4cf6b/transformed/lifecycle-runtime-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/8e8a300f432d810c07a5ddf431ab4186/transformed/lifecycle-viewmodel-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/a6cc36a735bd05d817d6956fb79280cd/transformed/cardview-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/10542f298c01dae1c9c5c74457443999/transformed/versionedparcelable-1.1.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/739ccf61b71610481785430af5fea7da/transformed/jetified-tracing-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/6d15f699d77a36a133868092d18834c4/transformed/collection-1.1.0
+   /Users/ruangguru/.gradle/caches/transforms-3/5241b4d282bca114cde2d21623eeb566/transformed/lifecycle-livedata-2.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/8a516148ae67b3b5f9cb21a6a83facad/transformed/lifecycle-livedata-core-2.3.1-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/91a4557f7b25778dc9cf6cb6a02a6055/transformed/lifecycle-common-2.3.1
+   /Users/ruangguru/.gradle/caches/transforms-3/2b23b11cb985a24e8d689d8ceb8fe636/transformed/core-runtime-2.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/50955d4f0b93a68328dbed788af91be1/transformed/core-common-2.1.0
+   /Users/ruangguru/.gradle/caches/transforms-3/9ece76b41dc4c006b8ec3084f6a6bea4/transformed/interpolator-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/b5a6e2a3ba61981c4c874f5b6acb928c/transformed/documentfile-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/b1025e3655138a1d3e55224d2fa81008/transformed/localbroadcastmanager-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/0b241893924282ec4a36ddf8b03d940c/transformed/print-1.0.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/b355638a19bb781005e7e20debdc9018/transformed/annotation-1.2.0
+   /Users/ruangguru/.gradle/caches/transforms-3/b79dcc75c71a514f3a0f916a45ab816e/transformed/jetified-annotation-experimental-1.1.0-runtime
+   /Users/ruangguru/.gradle/caches/transforms-3/eb6e756870f375fb02c359cea11ff5ed/transformed/jetified-constraintlayout-core-1.0.1
+   /Users/ruangguru/.gradle/caches/transforms-3/4b38ec888c9355bc9a6d1d4bb7955fa9/transformed/jetified-annotations-13.0
+   /Users/ruangguru/.gradle/caches/transforms-3/e357eba7e311dedd2be6f4d44ef85de2/transformed/jetified-kotlin-stdlib-common-1.5.10
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/duplicate_classes_check/debug
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeExtDexDebug
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/duplicate_classes_check/debug
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeLibDexDebug
+
+> Task :app:dexBuilderDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/javac/debug/classes
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/tmp/kotlin-classes/debug
+   /Users/ruangguru/Library/Android/sdk/platforms/android-31-3/android.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b43d1e335b0a1e92da7e26bad934fbe3/transformed/jetified-core-ktx-1.6.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b1a1e41e40d16be2628012b54d62f551/transformed/material-1.4.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/df36811a8a50df5ffb4d66af29a0b2d7/transformed/constraintlayout-2.1.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9abf42e7d5552182c64fcf5ec60aae26/transformed/appcompat-1.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/bb53b535dd46d17abff34d68d13a6950/transformed/jetified-kotlin-stdlib-1.5.10.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/2e37e372cd25c5b43adcc26cec2b7898/transformed/jetified-viewpager2-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/e7e661d4eaa71f5aaeaadf01dbe075b1/transformed/fragment-1.3.6-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9e484201cb623c7c2fc845f073d0e4c9/transformed/jetified-activity-1.2.4-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/88687650ed26dc31478e5147ec3eb654/transformed/jetified-appcompat-resources-1.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ccb6e93bff5b61446016fe9eca104ade/transformed/drawerlayout-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/4b13e676d86024a1beb0afb1462f0ed9/transformed/coordinatorlayout-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f45b5cc76a081a3095cda0f1217b169e/transformed/dynamicanimation-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b2e4222a215e551efcb94882dd6c1bf9/transformed/transition-1.2.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/ce53d9fb0ec8b83c4b4294ecd0b01910/transformed/vectordrawable-animated-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/10fcb813abf822a4dc840598812a09a7/transformed/vectordrawable-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b5935929169a7de77b1e1ec5f134a24c/transformed/viewpager-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/724f2523c5b502166483b14c89d71bec/transformed/legacy-support-core-utils-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f1f91ecc49ae5185da851bece088e7d6/transformed/loader-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/4eb660e1fc099f44cb4f97927c25b27e/transformed/recyclerview-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/d6802fc5c9c7d64acaecaaa1cdf404c1/transformed/customview-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/040ad60a8273bb6a48976341bd02455b/transformed/core-1.6.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/9507271dbd274924b79124f047231c8e/transformed/cursoradapter-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/7ffedcbda271761e104d8c291d36fc82/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5eebda5c910be127bbb57f0689ec93c9/transformed/jetified-savedstate-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b916deac9223c1f855f22aa31c56cf3e/transformed/lifecycle-runtime-2.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/cd73c364c281e606166a68c4e8da0b68/transformed/lifecycle-viewmodel-2.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/92bf29e36aa626cd0a6a99a11311a902/transformed/cardview-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/0a6632973359a1b84da53b1bb0f922fb/transformed/versionedparcelable-1.1.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/211309c966666d9e97302ea7b969d665/transformed/jetified-tracing-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/3e375335870d753068144192f7933ebc/transformed/lifecycle-livedata-2.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/b686f58c59da9e7293e73ec3938e462d/transformed/lifecycle-livedata-core-2.3.1-runtime.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/45ab2cb8546206daabefb916fbac942f/transformed/core-runtime-2.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/0c93a1cb0b4e1dda481c32160aa463a1/transformed/interpolator-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/61bd2492c3347a2ea04dbecebe9a46ef/transformed/documentfile-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5d5c13dde882b3ead358884d9f6966d5/transformed/localbroadcastmanager-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fdc8266b7ba3f3c01931290d67eca5ad/transformed/print-1.0.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/63bb384275dc2e23c59c50bfe556575d/transformed/jetified-annotation-experimental-1.1.0-runtime.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/f955f2e7d09f92a5eae99f30a3520824/transformed/jetified-constraintlayout-core-1.0.1.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/fde3fac1f1e4391de3d27e2603b0c590/transformed/jetified-annotations-13.0.jar
+   /Users/ruangguru/.gradle/caches/transforms-3/5cb41688f7667342b8729a2e784d16a1/transformed/jetified-kotlin-stdlib-common-1.5.10.jar
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/external_libs_dex_archive_with_artifact_transforms/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/external_libs_dex_archive/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/mixed_scope_dex_archive/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/project_dex_archive/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/sub_project_dex_archive/debug/out
+
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/project_dex_archive/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/mixed_scope_dex_archive/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/duplicate_classes_check/debug
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeProjectDexDebug
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/main/jniLibs
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/src/debug/jniLibs
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/mergeDebugJniLibFolders
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_jni_libs/debug/out
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_native_libs/debug/out
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_native_libs/debug/out
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/stripped_native_libs/debug/out
+
+> Task :app:validateSigningDebug UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/validate_signing_config/debug
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/app_metadata/debug/app-metadata.properties
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+inputs: 
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json
+
+> Task :app:packageDebug UP-TO-DATE
+inputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/app_metadata/debug/app-metadata.properties
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/compressed_assets/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeExtDexDebug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeProjectDexDebug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/dex/debug/mergeLibDexDebug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/merged_java_res/debug/base.jar
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/stripped_native_libs/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/packaged_manifests/debug
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/processed_res/debug/out
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/validate_signing_config/debug
+   /Users/ruangguru/.android/debug.keystore
+outputs: 
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/outputs/apk/debug/output-metadata.json
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/intermediates/incremental/packageDebug/tmp
+   /Users/ruangguru/AndroidStudioProjects/Learn/gradle-plugin-demo/GradleNotification/app/build/outputs/apk/debug
+
+> Task :app:assembleDebug UP-TO-DATE
+inputs: 
+outputs: 
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/7.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 661ms
+28 actionable tasks: 28 up-to-date

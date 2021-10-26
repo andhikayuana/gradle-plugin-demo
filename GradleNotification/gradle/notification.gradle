@@ -1,0 +1,79 @@
+// Gradle Notification
+
+tasks.register('notification') {
+
+    doLast {
+        println 'gradle notification'
+    }
+}
+
+/**
+ * notifications callback
+ */
+project.tasks.whenTaskAdded {}
+
+project.beforeEvaluate {}
+project.afterEvaluate {}
+gradle.projectsEvaluated {}
+
+gradle.taskGraph.whenReady {}
+gradle.taskGraph.beforeTask {}
+gradle.taskGraph.afterTask {}
+
+
+/**
+ * EXAMPLE to print all task
+ */
+allprojects { Project project ->
+    project.tasks.whenTaskAdded { Task task ->
+        println "added task: ${task.name}"
+    }
+
+    afterEvaluate { Project prj ->
+        println "just evaluated: $prj"
+    }
+
+}
+
+/**
+ * EXAMPLE print commands, task name class
+ */
+gradle.taskGraph.whenReady {
+    def startTasks = gradle.startParameter.getTaskNames().join(" ")
+    println "command: ./gradlew ${startTasks}"
+
+    gradle.taskGraph.allTasks.each {
+        println "task: ${it.name}, class: ${it.class.name}"
+
+//        println "inputs: "
+//        it.inputs.each {
+//            it.files.each {
+//                println "   ${it}"
+//            }
+//        }
+//
+//        println "outputs: "
+//        it.outputs.each {
+//            it.files.each {
+//                println "   ${it}"
+//            }
+//        }
+    }
+}
+
+gradle.taskGraph.afterTask { Task task ->
+
+    println "inputs: "
+    task.inputs.each {
+        it.files.each {
+            println "   ${it}"
+        }
+    }
+
+    println "outputs: "
+    task.outputs.each {
+        it.files.each {
+            println "   ${it}"
+        }
+    }
+}
