@@ -1,0 +1,13 @@
+android.applicationVariants.all { variant ->
+
+    def suffixTask = variant.name.capitalize()
+
+    tasks.create("hello${suffixTask}") {Task task ->
+        group 'Hello'
+        description "gradle task ${suffixTask} demonstration"
+
+        doLast {
+            println "Task: ${task.name}"
+        }
+    }
+}
