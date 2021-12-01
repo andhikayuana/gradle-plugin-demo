@@ -1,0 +1,47 @@
+import java.nio.file.FileSystems
+import java.nio.file.StandardWatchEventKinds
+import java.nio.file.WatchEvent
+import java.nio.file.WatchKey
+
+abstract class FileWatcher extends DefaultTask {
+
+    @InputDirectory
+    abstract DirectoryProperty getInputDir()
+
+    @TaskAction
+    def execute() {
+        println 'hello from GreetingTask'
+
+        def watchService
+                = FileSystems.default.newWatchService()
+
+        def path = java.nio.file.Paths.get(inputDir.get().asFile.path)
+
+        path.register(
+                watchService,
+                StandardWatchEventKinds.ENTRY_CREATE,
+                StandardWatchEventKinds.ENTRY_DELETE,
+                StandardWatchEventKinds.ENTRY_MODIFY,
+                StandardWatchEventKinds.OVERFLOW
+        )
+
+
+        WatchKey key
+        while ((key = watchService.take()) != null) {
+            for (WatchEvent<?> event : key.pollEvents()) {
+                println "HAI"
+                println(
+                        "Event kind:" + event.kind()
+                                + ". File affected: " + event.context() + ".")
+            }
+            key.reset()
+        }
+
+
+    }
+}
+
+// Create a task using the task type
+tasks.register('runWatcher', FileWatcher) {
+    inputDir = file("${projectDir}/app/src/main")
+}
